@@ -21,6 +21,9 @@ show the current days weather information as well as a five day forecast.
 
 There is no installation just visit the site.
 
+https://brinton0739.github.io/weatherdashmc6/
+
+
 ## Usage
 
 The search field will take a city input, it will then save your search as a button on the left and show you the current days weather information and the five day forecast for that city.
@@ -41,4 +44,3 @@ no tests are required.
 
 https://github.com/brinton0739/weatherdashmc6
 
-https://brinton0739.github.io/weatherdashmc6/
