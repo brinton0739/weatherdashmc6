@@ -1,8 +1,11 @@
 # weatherdashmc6
 
+![2022-09-27](https://user-images.githubusercontent.com/103536550/192446586-fdd31803-aa65-4dc2-8b52-a72e27e10e0c.png)
+
 ## Description
 
-a simple javascript app that uses rest api from openweathermap.org to search for a city name and 
+a simple javascript 
+app that uses rest api from openweathermap.org to search for a city name and 
 show the current days weather information as well as a five day forecast.
 
 ## Table of Contents
