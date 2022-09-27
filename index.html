@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+ <body class="bg-light">
+    
+
+
+
+<header class="row">
+        <h1 class="col justify-content-center text-primary" id="header">Weather Dashboard</h1>
+</header>
+    <!-- sidebar for search and searched cities-->
+<div class="row">
+    <div class="col-md-4 form-group text-secondary" id="sideBar">
+        <h2>City Search Bar</h2>
+        <div id="citySearch" class="input-group form-1 pl-0 md-form">
+            <input id="search" class="form-control my-0 py-1"type="text" placeholder="Search Here" aria-label="Search">
+            <div class="input-group-prepend">
+                <span class="input-group-text fa fa-search" id="firstText"></span>
+            </div>
+        </div>
+       </div>
+    </div>  
+
+ <!-- main container-->
+ <main class="container pl-0 ml-4">
+
+    <!-- daily weather -->
+    <div class = "row">
+         <!-- city search history unordered list-->
+        <div id="cityButton" class="w-25 card justify-content-left">
+            <ul></ul>
+            </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div id="dayWeather" class="body">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5 day forecast -->
+    <div class="row">
+        <div class ="col-md-12" id="fiveDay"></div>
+
+            <div class="s12 card-deck m col">
+
+                <div id="dayOne">
+                </div>
+
+                <div id="dayTwo">
+                </div>
+
+                <div id="dayThree">
+                </div>
+
+                <div id="dayFour">
+                </div>
+
+                <div id="dayFive">
+                </div>
+            </div>
+
+    </div>
+
+    </main>
+
+
+
+
+
+    <!--links to scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>        
+    <script src="weather.js"></script>
+
+  </body>
+  </html>
